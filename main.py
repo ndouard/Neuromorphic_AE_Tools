@@ -12,5 +12,7 @@ if __name__ == "__main__":
 	input('Press any key to continue...')
 	print('Starting spike tools...')
 	#spk.show_polarity(time, xaddr, yaddr, pol)
-	common = spk.keep_one_addr_with_rng(time, xaddr, yaddr, pol, 32, 96, 100)
+	common = spk.keep_one_addr_with_rng(time, xaddr, yaddr, pol, 34, 65, 10)
+	print('Done extracting spikes')
+	input('Press any key to continue...')
 	spk.show_polarity(time, pol, common)
