@@ -1,0 +1,1 @@
+Polarity (luminosity change): ‘1’ means increase (ON), ‘0’ means decrease (OFF).
