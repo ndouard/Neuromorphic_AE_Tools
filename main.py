@@ -9,11 +9,15 @@ if __name__ == "__main__":
 	time = data[0]
 	xaddr = data[1]
 	yaddr = data[2]
-	pol = data[3]
+	pol = spk.use_pm_polarity(data[3])
+	
 	#user defined vars
+	#pixel of interest address
 	myxaddr = 3
 	myyaddr = 3
-	rng = 3
+	#range around that pixel
+	#note a big range can be expensive
+	rng = 5
 	
 	#dummy data
 	# xaddr = [1,2,3,4,3,3,6,3]

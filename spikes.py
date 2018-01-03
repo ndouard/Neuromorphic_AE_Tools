@@ -45,8 +45,7 @@ def keep_one_addr_with_rng(time, xaddr, yaddr, pol, myxaddr, myyaddr, rng):
 	    for curr_addr in range(len(addr)):
 	        if addr[curr_addr] == accept_addr[curr_tested_addr]:
 		        considered.append(curr_addr)
-    print('Considered indexes (not ordered/showing first 100 out of ' + str(len(considered) + 1) + ': ' + str(considered[0:100]))
-    #exit(0) #remove me
+    print('Considered indexes (not ordered/showing first 100 out of ' + str(len(considered) + 1) + '): ' + str(considered[0:100]))
     return considered
 
 def keep_one_addr(time, xaddr, yaddr, pol, myxaddr, myyaddr):

@@ -1,1 +1,0 @@
-Check AEDAT definition: "events" (1 TURN ON, 0 TURN OFF) or "state" (1 ON, 0 OFF)
