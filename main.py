@@ -5,7 +5,7 @@ import sys
 if __name__ == "__main__":
 	#extract data
 	print('Loading AEDAT file...')
-	data = ld.loadaerdat('./mike1.aedat', 0, 'aedat', 1, 'DVS128')
+	#data = ld.loadaerdat('./file.aedat', 0, 'aedat', 1, 'DVS128')
 	time = data[0]
 	xaddr = data[1]
 	yaddr = data[2]
