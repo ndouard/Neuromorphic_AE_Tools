@@ -5,6 +5,7 @@ import sys
 if __name__ == "__main__":
 	#extract data
 	print('Loading AEDAT file...')
+	#can import data using a different way
 	#data = ld.loadaerdat('./file.aedat', 0, 'aedat', 1, 'DVS128')
 	time = data[0]
 	xaddr = data[1]
