@@ -1,7 +1,7 @@
 ###############################
-# # plot frame images obtained
-# # from net_raw_UDP_jAER
-# # federico.corradi@inilabs.com
+# plot frame images obtained
+# from net_raw_UDP_jAER
+# federico.corradi@inilabs.com
 ###############################
 
 import pylab as plt
